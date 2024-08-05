@@ -1,0 +1,35 @@
+.feed{
+    flex: 0.4;
+    border-right: 1px solid grey;
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+.feed__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid grey;
+}
+
+.feed__header > h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+.Link__container{
+    position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0;
+}
+.link {
+    text-align: center; /* Center the text inside the link */
+    margin-bottom: 20px; /* Add some space at the bottom */
+}
